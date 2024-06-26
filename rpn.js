@@ -13,6 +13,12 @@ export function mainFunction(expression) {
           case '+':
             contenu.push(a + b);
             break;
+        case '-':
+            contenu.push(a - b);
+            break;
+        case '*':
+            contenu.push(a * b);
+            break;
         }
       }
     });
