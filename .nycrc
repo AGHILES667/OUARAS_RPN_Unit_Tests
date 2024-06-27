@@ -1,6 +1,8 @@
 {
-  "include": ["rpn.js"],
-  "exclude": ["test.js"],
-  "reporter": ["text", "html"],
-  "all": true
-}
+    "all": true,
+    "include": ["src/**/*.js"],
+    "exclude": ["test/**/*.js"],
+    "reporter": ["html", "text-summary"],
+    "require": ["@babel/register"]
+  }
+  
